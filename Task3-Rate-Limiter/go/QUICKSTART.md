@@ -2,7 +2,7 @@
 
 A thread-safe, in-memory rate limiter implementation in Go.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Run Demo
 ```bash
@@ -20,7 +20,7 @@ go test ./tests -v
 ```
 Runs the test suite to verify logic correctness.
 
-## 💻 Usage
+## Usage
 
 ```go
 import (
@@ -41,7 +41,7 @@ func main() {
 }
 ```
 
-## 📂 Project Structure
+## Project Structure
 ```
 go/
 ├── src/
@@ -53,7 +53,7 @@ go/
 └── QUICKSTART.md        # This guide
 ```
 
-## ✨ Features
+## Features
 - **Thread-Safe**: Uses `sync.Mutex` for concurrent access.
 - **User Isolation**: Tracks limits independently per user ID.
 - **Auto-Reset**: Automatically resets counts after the time window expires.

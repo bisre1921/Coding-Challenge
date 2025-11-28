@@ -2,7 +2,7 @@
 
 A robust JavaScript utility that fetches data from a URL and automatically retries on failure.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup
 ```bash
@@ -22,7 +22,7 @@ npm test
 ```
 Runs the Jest test suite to verify retry logic and error handling.
 
-## 💻 Usage
+## Usage
 
 ```javascript
 const { fetchWithRetry } = require('./src/fetcher');
@@ -44,7 +44,7 @@ async function getData() {
 await fetchWithRetry('https://api.example.com/data', 5, 2000);
 ```
 
-## 📂 Project Structure
+## Project Structure
 ```
 javascript/
 ├── src/
@@ -56,7 +56,7 @@ javascript/
 └── QUICKSTART.md       # This guide
 ```
 
-## ✨ Features
+## Features
 - **Async/Await**: Clean, modern asynchronous code.
 - **Configurable Retries**: Set max retries and delay duration.
 - **Error Handling**: Catches both network errors and HTTP error status codes.
