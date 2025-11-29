@@ -42,7 +42,7 @@ Word Frequency (Top 10):
 ============================================================
 ```
 
-## 🧪 Run Tests
+## Run Tests
 
 ```bash
 cd Task1-Smart-Text-Analyzer/python/tests
@@ -51,7 +51,7 @@ python3 test_text_analyzer.py -v
 
 All 13 tests should pass!
 
-## 🎬 See Demo
+## See Demo
 
 ```bash
 cd Task1-Smart-Text-Analyzer/python/src
@@ -60,7 +60,7 @@ python3 demo.py
 
 This shows 7 different use cases with example outputs.
 
-## 💻 Use in Your Code
+## Use in Your Code
 
 ```python
 from text_analyzer import analyze_text
